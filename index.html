@@ -1,0 +1,1246 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+                <!-- Bootstrap -->
+        <link rel="stylesheet preconnect" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    
+    <!-- IU Stylesheet -->
+    <!-- TypeKit fonts (should be ok for AMP based pages as well as these custom fonts are whitelisted in AMP) -->
+    <link rel="stylesheet" href="https://use.typekit.net/svc8hdj.css">
+
+    <style type="text/css">
+        .nav-down{
+            top: 100px;
+            transition: top 0.2s ease-in-out;
+        }
+
+        .navbar{
+            background-color: #fff !important;
+        }
+
+        .sticky-top{
+            z-index: 1022;
+        }
+        @media screen and (max-width: 991px){
+            .nav-down {
+                top: 70px !important;
+            }
+        }
+
+      
+    
+    .container ins center a img {
+        width: 100%
+    }
+
+    .search-form-wrapper {
+        display: none;
+        position: absolute;
+        left: 0; right: 0;
+        padding: 20px 15px;
+        margin-top: 50px;
+    }
+
+    .search-form-wrapper.open {
+        display: block;
+    }
+
+    </style>
+
+            <script>
+            // Hide Header on on scroll down and show on scroll up
+            $(document).ready(function () {
+                if($(window).width()>992){
+                    'use strict';
+
+                    var c, currentScrollTop = 0,
+                        navbar = $('.navbar');
+
+                    $(window).scroll(function () {
+                        var a = $(window).scrollTop();
+                        var b = navbar.height();
+
+                        currentScrollTop = a;
+
+                        if (c < currentScrollTop && a > b + b) {
+                        navbar.removeClass("sticky-top");
+                        $('#small-signup-form').removeClass('nav-down');
+                        } else if (c > currentScrollTop && !(a <= b)) {
+                        navbar.addClass("sticky-top");
+                        $('#small-signup-form').addClass('nav-down');
+                        }
+                        c = currentScrollTop;
+                    });
+                }
+        });
+        </script>
+        <script type="text/javascript">
+            $( document ).ready(function() {
+                $('[data-toggle=search-form]').click(function() {
+                    if ($('#collapse-nav').hasClass('show') && $(window).width() < 992) {
+                        $('.search-form-wrapper').css('margin-top', '137px');
+                    }
+                    else {
+                        $('.search-form-wrapper').css('margin-top', '50px');
+                    }
+                    $('.navbar').toggleClass('mb-5');
+                    $('.search-form-wrapper').toggleClass('open');
+                    $('.search-form-wrapper .search').focus();
+                    $('html').toggleClass('search-form-open');
+                });
+
+                $('[data-toggle=search-form-close]').click(function() {
+                    $('.search-form-wrapper').removeClass('open');
+                    $('html').removeClass('search-form-open');
+                });
+
+                $('.search-form-wrapper .search').keypress(function( event ) {
+                    if($(this).val() == "Search") $(this).val("");
+                });
+
+                $('.search-close').click(function(event) {
+                    $('.search-form-wrapper').removeClass('open');
+                    $('html').removeClass('search-form-open');
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('p:has(img.aligncenter)').addClass('aligncenter');
+
+                $('.navbar-toggler').click(function() {
+                    if ($('.search-form-wrapper').hasClass('open') && $(window).width() < 992) {
+                        if (!$('#collapse-nav').hasClass('show')) {
+                            $('.search-form-wrapper').css('margin-top', '137px');
+                        }
+                        else {
+                            $('.search-form-wrapper').css('margin-top', '50px');
+                        }
+                    }
+                    else {
+                        $('.search-form-wrapper').css('margin-top', '50px');
+                    }
+                });
+            });
+
+            // Dropdown toggle on click event
+            function navDropdownToggle() {
+                if($(window).width()<992){
+                  $('.has-mega-menu a').attr('data-toggle','dropdown');
+                  $('.mega-menu-column ul li a').attr('class','dropdown-item');
+                  $('.mega-menu-column ul li a').removeAttr('data-toggle');
+                }
+            }
+            jQuery(function($) {
+              // Dropdown toggle on window load
+              navDropdownToggle();
+              // Dropdown toggle on window resize
+              $(window).resize(function() {
+                navDropdownToggle();
+              });
+          });
+
+        </script>
+
+
+    <title>How to Invest in Dividend Stocks Like a Pro - Investment U</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v12.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Dividend stocks are often a great investment. But many people do not know how to invest in dividend stocks. Here&#039;s how to do it and why you may want to."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://investmentu.com/how-to-invest-in-dividend-stocks/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How to Invest in Dividend Stocks Like a Pro - Investment U" />
+<meta property="og:description" content="Hint: you&#039;ll need to understand dividend yields." />
+<meta property="og:url" content="https://investmentu.com/how-to-invest-in-dividend-stocks/" />
+<meta property="og:site_name" content="Investment U" />
+<meta property="article:publisher" content="https://www.facebook.com/investmentu" />
+<meta property="article:tag" content="dividend stocks" />
+<meta property="article:tag" content="how to invest in dividend stocks" />
+<meta property="article:tag" content="how to invest in stocks" />
+<meta property="article:tag" content="investing in dividend stocks" />
+<meta property="article:tag" content="stocks" />
+<meta property="article:section" content="Dividend Stocks" />
+<meta property="article:published_time" content="2020-08-11T17:55:48-04:00" />
+<meta property="article:modified_time" content="2020-08-11T19:10:18-04:00" />
+<meta property="og:updated_time" content="2020-08-11T19:10:18-04:00" />
+<meta property="og:image" content="https://investmentu.com/wp-content/uploads/2020/08/how-to-invest-in-dividend-stocks.jpg" />
+<meta property="og:image:secure_url" content="https://investmentu.com/wp-content/uploads/2020/08/how-to-invest-in-dividend-stocks.jpg" />
+<meta property="og:image:width" content="730" />
+<meta property="og:image:height" content="467" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Dividend stocks are often a great investment. But many people do not know how to invest in dividend stocks. Here&#039;s how to do it and why you may want to." />
+<meta name="twitter:title" content="How to Invest in Dividend Stocks Like a Pro - Investment U" />
+<meta name="twitter:site" content="@investmentu" />
+<meta name="twitter:image" content="https://investmentu.com/wp-content/uploads/2020/08/how-to-invest-in-dividend-stocks.jpg" />
+<meta name="twitter:creator" content="@brianmreiser41" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://investmentu.com/#organization","name":"Investment U","url":"https://investmentu.com/","sameAs":["https://www.facebook.com/investmentu","https://www.linkedin.com/showcase/investmentu/","https://twitter.com/investmentu"],"logo":{"@type":"ImageObject","@id":"https://investmentu.com/#logo","url":"https://investmentu.com/wp-content/uploads/2019/10/logo.png","width":500,"height":60,"caption":"Investment U"},"image":{"@id":"https://investmentu.com/#logo"}},{"@type":"WebSite","@id":"https://investmentu.com/#website","url":"https://investmentu.com/","name":"Investment U","publisher":{"@id":"https://investmentu.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://investmentu.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://investmentu.com/how-to-invest-in-dividend-stocks/#primaryimage","url":"https://investmentu.com/wp-content/uploads/2020/08/how-to-invest-in-dividend-stocks.jpg","width":730,"height":467,"caption":"A young woman learning how to invest in dividend stocks on her phone"},{"@type":"WebPage","@id":"https://investmentu.com/how-to-invest-in-dividend-stocks/#webpage","url":"https://investmentu.com/how-to-invest-in-dividend-stocks/","inLanguage":"en-US","name":"How to Invest in Dividend Stocks Like a Pro - Investment U","isPartOf":{"@id":"https://investmentu.com/#website"},"primaryImageOfPage":{"@id":"https://investmentu.com/how-to-invest-in-dividend-stocks/#primaryimage"},"datePublished":"2020-08-11T17:55:48-04:00","dateModified":"2020-08-11T19:10:18-04:00","description":"Dividend stocks are often a great investment. But many people do not know how to invest in dividend stocks. Here's how to do it and why you may want to."},{"@type":"Article","@id":"https://investmentu.com/how-to-invest-in-dividend-stocks/#article","isPartOf":{"@id":"https://investmentu.com/how-to-invest-in-dividend-stocks/#webpage"},"author":{"@id":"https://investmentu.com/#/schema/person/e634260ea07ee456058088dd043dcbdd"},"headline":"How to Invest in Dividend Stocks","datePublished":"2020-08-11T17:55:48-04:00","dateModified":"2020-08-11T19:10:18-04:00","commentCount":0,"mainEntityOfPage":{"@id":"https://investmentu.com/how-to-invest-in-dividend-stocks/#webpage"},"publisher":{"@id":"https://investmentu.com/#organization"},"image":{"@id":"https://investmentu.com/how-to-invest-in-dividend-stocks/#primaryimage"},"keywords":"dividend stocks,how to invest in dividend stocks,how to invest in stocks,investing in dividend stocks,stocks","articleSection":"Dividend Stocks"},{"@type":["Person"],"@id":"https://investmentu.com/#/schema/person/e634260ea07ee456058088dd043dcbdd","name":"Brian M. Reiser","image":{"@type":"ImageObject","@id":"https://investmentu.com/#authorlogo","url":"https://secure.gravatar.com/avatar/e724a10fb76834117a1053d9de17bdc9?s=96&d=blank&r=g","caption":"Brian M. Reiser"},"description":"Personal finance and investing writer for Investment U.","sameAs":["https://www.linkedin.com/in/brian-reiser-content-marketing/","https://twitter.com/brianmreiser41","https://twitter.com/brianmreiser41"]}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//kit.fontawesome.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Investment U &raquo; How to Invest in Dividend Stocks Comments Feed" href="https://investmentu.com/how-to-invest-in-dividend-stocks/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/investmentu.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://investmentu.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='og-plugins-iu-financial-calculators-css'  href='https://investmentu.com/wp-content/plugins/og-plugins-iu-financial-calculators/public/css/iu-financial-calculators-public.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://investmentu.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' type='text/css' media='all' />
+<style id='addtoany-inline-css' type='text/css'>
+@media screen and (max-width:980px){
+.a2a_floating_style.a2a_vertical_style{display:none;}
+}
+@media screen and (min-width:981px){
+.a2a_floating_style.a2a_default_style{display:none;}
+}
+.a2a_floating_style {
+    z-index: 1021 !important;
+}
+
+@media (min-width: 981px) {
+.a2a_svg path {
+    fill: rgb(255, 255, 255) !important;
+	}}
+
+@media (min-width: 981px){
+.a2a_s_facebook {
+    background-color: rgb(59, 89, 152) !important;
+}}
+</style>
+<link rel='stylesheet' id='sage/css-css'  href='https://investmentu.com/wp-content/themes/InvestmentU-2019/assets/styles/main.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://investmentu.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://investmentu.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://investmentu.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1'></script>
+<script type='text/javascript' src='https://investmentu.com/wp-content/plugins/og-plugins-iu-financial-calculators/public/js/iu-financial-calculators-public.js?ver=1.0.1'></script>
+<script type='text/javascript' src='https://investmentu.com/wp-content/plugins/og-plugins-revive-variables/js/revive.js'></script>
+<script type='text/javascript' src='https://kit.fontawesome.com/46c48f5ca1.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://investmentu.com/wp-content/themes/InvestmentU-2019/assets/scripts/email-validation.js?ver=5.4.2'></script>
+<link rel='https://api.w.org/' href='https://investmentu.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://investmentu.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://investmentu.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel='shortlink' href='https://investmentu.com/?p=77429' />
+<link rel="alternate" type="application/json+oembed" href="https://investmentu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finvestmentu.com%2Fhow-to-invest-in-dividend-stocks%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://investmentu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finvestmentu.com%2Fhow-to-invest-in-dividend-stocks%2F&#038;format=xml" />
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+a2a_config.callbacks.push({ready: function(){var d=document;function a(){var e=d.createElement("div");e.innerHTML="<div class=\"a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style\" style=\"margin-left:-75px;top:300px;background-color:#ffffff;\"><a class=\"a2a_button_facebook\"><\/a><a class=\"a2a_button_twitter\"><\/a><a class=\"a2a_button_email\"><\/a><a class=\"a2a_button_linkedin\"><\/a><a class=\"a2a_button_pinterest\"><\/a><\/div><div class=\"a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style\" style=\"bottom:0px;left:50%;transform:translateX(-50%);background-color:#ffffff;\"><a class=\"a2a_button_facebook\"><\/a><a class=\"a2a_button_twitter\"><\/a><a class=\"a2a_button_email\"><\/a><a class=\"a2a_button_linkedin\"><\/a><a class=\"a2a_button_pinterest\"><\/a><\/div>";d.querySelector(".article-header").appendChild(e.firstChild);a2a.init("page");}if("loading"!==d.readyState)a();else d.addEventListener("DOMContentLoaded",a,false);}});
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+		<script src="https://portrait-tracker.s3.amazonaws.com/all.js"></script>
+		<script>
+			document.addEventListener('portraitReady', function (e) {Portrait.dataLayer.page.page_title = "How to Invest in Dividend Stocks Like a Pro - Investment U";Portrait.dataLayer.page.page_type = "post";Portrait.dataLayer.page.page_template_type = "single-post";Portrait.dataLayer.page.page_category = ["dividend-stocks"];Portrait.dataLayer.page.page_tags = ["dividend-stocks","how-to-invest-in-dividend-stocks","how-to-invest-in-stocks","investing-in-dividend-stocks","stocks"];Portrait.dataLayer.page.page_tag_list = "dividend-stocks|how-to-invest-in-dividend-stocks|how-to-invest-in-stocks|investing-in-dividend-stocks|stocks|";Portrait.dataLayer.page.author = "Brian M. Reiser";Portrait.dataLayer.page.publish_date = "August 11, 2020";Portrait.dataLayer.page.publish_date_year = "2020";Portrait.dataLayer.page.publish_date_month = "08";Portrait.dataLayer.page.publish_date_day = "11";Portrait.dataLayer.page.taxonomies = {"category":["Dividend Stocks"],"post_tag":["dividend stocks","how to invest in dividend stocks","how to invest in stocks","investing in dividend stocks","stocks"],"yst_prominent_words":["august 10","capital appreciation","company","dividend stock","dividend stocks","dividend yield","dividends","dow jones","increase the price","invest","invest in dividend","invest in dividend stocks","look","pay dividends","payout ratio","price of the stock","stock","stocks","stocks that pay","yield"]};Portrait.dataLayer.page.taxonomy_list = "category:Dividend Stocks|post_tag:dividend stocks|post_tag:how to invest in dividend stocks|post_tag:how to invest in stocks|post_tag:investing in dividend stocks|post_tag:stocks|yst_prominent_words:august 10|yst_prominent_words:capital appreciation|yst_prominent_words:company|yst_prominent_words:dividend stock|yst_prominent_words:dividend stocks|yst_prominent_words:dividend yield|yst_prominent_words:dividends|yst_prominent_words:dow jones|yst_prominent_words:increase the price|yst_prominent_words:invest|yst_prominent_words:invest in dividend|yst_prominent_words:invest in dividend stocks|yst_prominent_words:look|yst_prominent_words:pay dividends|yst_prominent_words:payout ratio|yst_prominent_words:price of the stock|yst_prominent_words:stock|yst_prominent_words:stocks|yst_prominent_words:stocks that pay|yst_prominent_words:yield|";Portrait.dataLayer.page.page_format = "standard";Portrait.dataLayer.identity.login_state = "logged-out";Portrait.wordpressTracker()});		</script>
+		<link rel="amphtml" href="https://investmentu.com/how-to-invest-in-dividend-stocks/?amp"><link rel="icon" href="https://investmentu.com/wp-content/uploads/2019/07/cropped-iu-favicon-copy-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://investmentu.com/wp-content/uploads/2019/07/cropped-iu-favicon-copy-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://investmentu.com/wp-content/uploads/2019/07/cropped-iu-favicon-copy-180x180.png" />
+<meta name="msapplication-TileImage" content="https://investmentu.com/wp-content/uploads/2019/07/cropped-iu-favicon-copy-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.publication-source {
+	font-style: italic;
+}
+h3 {
+    font-size: 1.3rem;
+}
+.h-popular-posts li a {
+    text-decoration: none;
+}
+.nav-item a {
+    color: #000000 !important;
+	text-decoration: none !important;
+}
+
+.navbar {
+    background-color: #fff !important;
+    z-index: 1025 !important;
+}
+#small-signup-form {
+    z-index: 1023 !important;
+}
+
+#spotlight, #spotlight-mobile {
+    border: 1px solid #4e81c1;
+    border-top: 11px solid #4e81c1;
+}
+#spotlight header img, #spotlight-mobile header img {
+    width: 30px;
+}
+#spotlight h4, #spotlight-mobile h4 {
+    font-size: 21px;
+}
+#spotlight h5, #spotlight-mobile h5 {
+    font-size: 17px;
+    color: #4e81c1;
+}
+#spotlight a.btn, #spotlight-mobile a.btn {
+    color: white;
+    font-weight: 700;
+    border-color: transparent;
+}
+
+.carousel-item.item {
+transition: transform .6s ease,-webkit-transform .6s ease !important}
+.search-form-wrapper.open{
+  position: absolute !important
+}
+
+.gated h2 {font-size: 1.75rem !important;}
+
+h2.videoTitle {
+	font-size: 1.75rem !important;
+}
+
+.main-featured-article-excerpt h1{
+	font-size: 1.5rem;
+}
+
+#section01 h1 {
+    visibility: hidden;
+    margin-top: -60px;
+}
+		</style>
+		    
+    
+
+            <!-- Google Tag Manager -->
+        <script>(function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-M397R7M');</script>
+        <!-- End Google Tag Manager -->
+    </head>
+<body class="post-template-default single single-post postid-77429 single-format-standard how-to-invest-in-dividend-stocks sidebar-primary">
+
+      <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M397R7M"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  
+
+
+<!-- main nav -->
+<nav class="navbar navbar-expand-lg navbar-light nav-fill">
+    <a class="navbar-brand" href="https://investmentu.com/">
+      <img src="https://investmentu.com/wp-content/themes/InvestmentU-2019/assets/images/logo.png" alt="Investment U" class="mx-auto my-3 img-fluid" id="logo">
+    </a>
+    <div class="d-lg-none nav-search nav-item" style="text-align: right; margin-right: 1rem; font-size: 1.55rem; ">
+
+          <div class="navbar-form navbar-right">
+              <a href="#search" class="search-form-trigger nav-link"  data-toggle="search-form" aria-label="Toggle search form">
+                  <img src="/wp-content/themes/InvestmentU-2019/assets/images/icon-search.svg" class="search-icon" alt="Search" aria-hidden="true" style="max-width: 25px;">
+              </a>
+          </div>
+
+    </div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-nav"
+      aria-controls="collapse-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapse-nav">
+    <div class="main-nav">
+        <ul id="menu-primary-mega-menu" class="nav nav-links"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71599" class="nav-item has-mega-menu dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71599 nav-item"><a title="How to Invest" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71599">How to Invest</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71599" role="menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71600" class="mega-menu-column menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-71600 nav-item"><a title="Investing 101" href="https://investmentu.com/investing-101/" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71600">Investing 101</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71600" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71601" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71601 nav-item"><a title="How To Invest In Stocks" href="https://investmentu.com/how-to-invest-in-stocks/" class="dropdown-item">How To Invest In Stocks</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71602" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71602 nav-item"><a title="How to Buy IPO Stock" href="https://investmentu.com/how-to-buy-ipo-stock/" class="dropdown-item">How to Buy IPO Stock</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71603" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71603 nav-item"><a title="How to Trade Options" href="https://investmentu.com/how-to-trade-options-for-beginners/" class="dropdown-item">How to Trade Options</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71604" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71604 nav-item"><a title="How to Trade Stocks" href="https://investmentu.com/how-to-trade-stocks-for-beginners/" class="dropdown-item">How to Trade Stocks</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-72030" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-72030 nav-item"><a title="Best Stocks for Beginners" href="https://investmentu.com/best-stocks-to-buy-for-beginners/" class="dropdown-item">Best Stocks for Beginners</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-72031" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-72031 nav-item"><a title="Best Stocks to Invest in" href="https://investmentu.com/best-stocks-to-invest-in-right-now/" class="dropdown-item">Best Stocks to Invest in</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71605" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71605 nav-item"><a title="How to Invest $10,000" href="https://investmentu.com/how-to-invest-10k/" class="dropdown-item">How to Invest $10,000</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71606" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71606 nav-item"><a title="Newsletters/Trading Services" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71606">Newsletters/Trading Services</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71606" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71607" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71607 nav-item"><a title="Liberty Through Wealth" href="http://bit.ly/3c0YuIm" class="dropdown-item">Liberty Through Wealth</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71608" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71608 nav-item"><a title="Wealthy Retirement" href="http://bit.ly/2vPMrgm" class="dropdown-item">Wealthy Retirement</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71609" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71609 nav-item"><a title="Profit Trends" href="http://bit.ly/2HJz4Rt" class="dropdown-item">Profit Trends</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71610 nav-item"><a title="Trade of the Day" href="http://bit.ly/2SMZ4BJ" class="dropdown-item">Trade of the Day</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71611 nav-item"><a title="Manward Press" href="http://bit.ly/38UiaM4" class="dropdown-item">Manward Press</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71612" class="mega-menu-column menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children dropdown menu-item-71612 nav-item"><a title="Reviews" href="https://investmentu.com/category/reviews/" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71612">Reviews</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71612" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71614" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71614 nav-item"><a title="The Great American Wealth Project" href="https://investmentu.com/the-great-american-wealth-project-review/" class="dropdown-item">The Great American Wealth Project</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71615" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71615 nav-item"><a title="Merrill Edge" href="https://investmentu.com/merrill-edge-review/" class="dropdown-item">Merrill Edge</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71616" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71616 nav-item"><a title="Rags-to-Riches Masterclass" href="https://investmentu.com/rags-to-riches-masterclass-review/" class="dropdown-item">Rags-to-Riches Masterclass</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71617" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71617 nav-item"><a title="War Room" href="https://investmentu.com/bryan-bottarelli-war-room-review/" class="dropdown-item">War Room</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71618" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71618 nav-item"><a title="Cash App Investing" href="https://investmentu.com/cash-app-investing/" class="dropdown-item">Cash App Investing</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71619" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71619 nav-item"><a title="The Perfect Retirement Business" href="https://investmentu.com/the-perfect-retirement-business-review/" class="dropdown-item">The Perfect Retirement Business</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71620" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71620 nav-item"><a title="Financial Terms" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71620">Financial Terms</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71620" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71621" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71621 nav-item"><a title="Types of Stock" href="https://investmentu.com/types-of-stocks/" class="dropdown-item">Types of Stock</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71625" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71625 nav-item"><a title="Types of Investment Funds" href="https://investmentu.com/types-of-investment-funds/" class="dropdown-item">Types of Investment Funds</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71626" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71626 nav-item"><a title="Dividend Payout Ratio" href="https://investmentu.com/dividend-payout-ratio-definition-and-formula/" class="dropdown-item">Dividend Payout Ratio</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71627" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71627 nav-item"><a title="What Is a Value Stock" href="https://investmentu.com/what-is-a-value-stock/" class="dropdown-item">What Is a Value Stock</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71628" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71628 nav-item"><a title="What is a Money Market Account" href="https://investmentu.com/what-is-a-money-market-account/" class="dropdown-item">What is a Money Market Account</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71629" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71629 nav-item"><a title="Terms Beginning Investors Should Know" href="https://investmentu.com/investment-terms-beginning-investors-should-know/" class="dropdown-item">Terms Beginning Investors Should Know</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71630" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71630 nav-item"><a title="Basic Accounting Terms" href="https://investmentu.com/basic-accounting-terms-and-concepts/" class="dropdown-item">Basic Accounting Terms</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71631" class="nav-item has-mega-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-71631 nav-item"><a title="Investment Opportunities" href="https://investmentu.com/investment-opportunities/" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71631">Investment Opportunities</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71631" role="menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71632" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71632 nav-item"><a title="Trending" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71632">Trending</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71632" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71633" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71633 nav-item"><a title="Walmart Stock" href="https://investmentu.com/wmt-stock/" class="dropdown-item">Walmart Stock</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71634" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71634 nav-item"><a title="XFL Stock" href="https://investmentu.com/xfl-stock/" class="dropdown-item">XFL Stock</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71635" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71635 nav-item"><a title="Pinterest Stock" href="https://investmentu.com/pinterest-stock-earnings/" class="dropdown-item">Pinterest Stock</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71636" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71636 nav-item"><a title="Robinhood Penny Stocks" href="https://investmentu.com/penny-stocks-on-robinhood/" class="dropdown-item">Robinhood Penny Stocks</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71637" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71637 nav-item"><a title="Marijuana Penny Stocks" href="https://investmentu.com/top-marijuana-penny-stocks-list/" class="dropdown-item">Marijuana Penny Stocks</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71638" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71638 nav-item"><a title="Slack Stock" href="https://investmentu.com/slack-stock/" class="dropdown-item">Slack Stock</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71640" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71640 nav-item"><a title="IPOs" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71640">IPOs</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71640" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71641" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71641 nav-item"><a title="TikTok IPO" href="https://investmentu.com/tiktok-ipo-will-bytedance-go-public-in-2020/" class="dropdown-item">TikTok IPO</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71642" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71642 nav-item"><a title="Palantir IPO" href="https://investmentu.com/will-palantir-ipo-in-2020/" class="dropdown-item">Palantir IPO</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71643" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71643 nav-item"><a title="SpaceX IPO" href="https://investmentu.com/spacex-ipo-elon-musks-starlink-likely-going-public/" class="dropdown-item">SpaceX IPO</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71644" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71644 nav-item"><a title="4 Recent IPOs" href="https://investmentu.com/recent-ipos-to-kick-off-2020/" class="dropdown-item">4 Recent IPOs</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71645" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71645 nav-item"><a title="Robinhood IPO" href="https://investmentu.com/will-robinhood-ipo-in-2019/" class="dropdown-item">Robinhood IPO</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71646" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71646 nav-item"><a title="The IPO Process" href="https://investmentu.com/ipo-process-guide-to-going-public/" class="dropdown-item">The IPO Process</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71648" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71648 nav-item"><a title="Stocks" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71648">Stocks</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71648" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71649" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71649 nav-item"><a title="Dividend Stocks" href="https://investmentu.com/dividend-stocks/" class="dropdown-item">Dividend Stocks</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71650" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71650 nav-item"><a title="Tech Stocks" href="https://investmentu.com/tech-stocks/" class="dropdown-item">Tech Stocks</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71651" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71651 nav-item"><a title="Marijuana Stocks" href="https://investmentu.com/marijuana-stocks/" class="dropdown-item">Marijuana Stocks</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71652" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71652 nav-item"><a title="Blockchain Stocks" href="https://investmentu.com/blockchain-stocks-to-watch/" class="dropdown-item">Blockchain Stocks</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71653" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71653 nav-item"><a title="Penny Stocks" href="https://investmentu.com/top-penny-stocks-list/" class="dropdown-item">Penny Stocks</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71654 nav-item"><a title="Dow Jones Today" href="https://investmentu.com/dow-jones-today/" class="dropdown-item">Dow Jones Today</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71655" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71655 nav-item"><a title="Markets" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71655">Markets</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71655" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71656" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71656 nav-item"><a title="Bonds" href="https://investmentu.com/category/bond-investing/" class="dropdown-item">Bonds</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71657" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71657 nav-item"><a title="ETFs" href="https://investmentu.com/category/etf-investing/" class="dropdown-item">ETFs</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71658" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71658 nav-item"><a title="Commodities" href="https://investmentu.com/category/commodity-investing/" class="dropdown-item">Commodities</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71659" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71659 nav-item"><a title="Cryptocurrencies" href="https://investmentu.com/category/crypto/" class="dropdown-item">Cryptocurrencies</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71660" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71660 nav-item"><a title="Real Estate" href="https://investmentu.com/?s=real+estate" class="dropdown-item">Real Estate</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71661" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71661 nav-item"><a title="Gold" href="https://investmentu.com/time-to-change-gold-investing-strategy/" class="dropdown-item">Gold</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71662" class="nav-item has-mega-menu dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71662 nav-item"><a title="Your Money" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71662">Your Money</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71662" role="menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71663" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71663 nav-item"><a title="Budgeting/Saving" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71663">Budgeting/Saving</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71663" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71664" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71664 nav-item"><a title="Best Budgeting Apps" href="https://investmentu.com/the-5-best-budgeting-apps-of-2019/" class="dropdown-item">Best Budgeting Apps</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71665" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71665 nav-item"><a title="How To Pay Off Debt Fast" href="https://investmentu.com/how-to-pay-off-debt-fast/" class="dropdown-item">How To Pay Off Debt Fast</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71666" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71666 nav-item"><a title="How Much Does a Wedding Cost" href="https://investmentu.com/how-much-does-a-wedding-cost/" class="dropdown-item">How Much Does a Wedding Cost</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71667" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71667 nav-item"><a title="How to Make a Budget in Excel" href="https://investmentu.com/how-to-make-a-budget-in-excel/" class="dropdown-item">How to Make a Budget in Excel</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71668" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71668 nav-item"><a title="Financial Resolutions for 2020" href="https://investmentu.com/finance-resolutions-for-2020/" class="dropdown-item">Financial Resolutions for 2020</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71669" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71669 nav-item"><a title="Credit Card: Pros and Cons" href="https://investmentu.com/credit-card-pros-and-cons/" class="dropdown-item">Credit Card: Pros and Cons</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71670" class="mega-menu-column menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-71670 nav-item"><a title="Financial Literacy" href="https://investmentu.com/financial-literacy/" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71670">Financial Literacy</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71670" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71671" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71671 nav-item"><a title="Top Passive Income Streams" href="https://investmentu.com/top-5-passive-income-streams/" class="dropdown-item">Top Passive Income Streams</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71672" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71672 nav-item"><a title="Personal Financial Planning Guide" href="https://investmentu.com/personal-financial-planning-guide/" class="dropdown-item">Personal Financial Planning Guide</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71673" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71673 nav-item"><a title="How to Make Money From Home" href="https://investmentu.com/make-money-from-home/" class="dropdown-item">How to Make Money From Home</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71674" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71674 nav-item"><a title="3 Tax Saving Tips" href="https://investmentu.com/3-tax-savings-tips-2020/" class="dropdown-item">3 Tax Saving Tips</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71675" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71675 nav-item"><a title="37 Investing Principles" href="https://investmentu.com/37-investing-principles-to-maximize-gains-limit-losses/" class="dropdown-item">37 Investing Principles</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71676" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71676 nav-item"><a title="Building Wealth" href="https://investmentu.com/building-wealth/" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71676">Building Wealth</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71676" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-76881" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76881 nav-item"><a title="How to Build Wealth at Any Stage of Life" href="https://investmentu.com/how-to-build-wealth/" class="dropdown-item">How to Build Wealth at Any Stage of Life</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-76884" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76884 nav-item"><a title="What Does It Mean to Build Wealth?" href="https://investmentu.com/what-does-it-mean-to-build-wealth/" class="dropdown-item">What Does It Mean to Build Wealth?</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-76883" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76883 nav-item"><a title="17 Wealth-Building Strategies to Implement Today" href="https://investmentu.com/wealth-building-strategies/" class="dropdown-item">17 Wealth-Building Strategies to Implement Today</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-76882" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76882 nav-item"><a title="5 Steps to Building Wealth in Your 20s" href="https://investmentu.com/building-wealth-in-your-twenties/" class="dropdown-item">5 Steps to Building Wealth in Your 20s</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-76885" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76885 nav-item"><a title="What Are the Keys to Building Wealth?" href="https://investmentu.com/keys-to-building-wealth/" class="dropdown-item">What Are the Keys to Building Wealth?</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71688" class="mega-menu-column menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-71688 nav-item"><a title="Financial Freedom" href="https://investmentu.com/financial-freedom/" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71688">Financial Freedom</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71688" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-76647" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76647 nav-item"><a title="Wealth Creation" href="https://investmentu.com/wealth-creation/" class="dropdown-item">Wealth Creation</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71689" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71689 nav-item"><a title="Become Financially Independent" href="https://investmentu.com/how-to-become-financially-independent-in-7-steps/" class="dropdown-item">Become Financially Independent</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71690" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71690 nav-item"><a title="Swagbucks Review" href="https://investmentu.com/swagbucks-review/" class="dropdown-item">Swagbucks Review</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71691" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71691 nav-item"><a title="How to Find Investment Money" href="https://investmentu.com/6-ways-to-find-investment-money/" class="dropdown-item">How to Find Investment Money</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71692" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71692 nav-item"><a title="Personal Financial Planning Guide" href="https://investmentu.com/personal-financial-planning-guide/" class="dropdown-item">Personal Financial Planning Guide</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71693" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71693 nav-item"><a title="The Best Side Hustles" href="https://investmentu.com/the-best-side-hustles-for-2020/" class="dropdown-item">The Best Side Hustles</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71695" class="nav-item has-mega-menu dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71695 nav-item"><a title="Retirement" href="https://investmentu.com/category/retirement/" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71695">Retirement</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71695" role="menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71696" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71696 nav-item"><a title="Best Places to Retire" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71696">Best Places to Retire</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71696" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71698" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71698 nav-item"><a title="Tennessee" href="https://investmentu.com/best-places-to-retire-in-tennessee/" class="dropdown-item">Tennessee</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71699" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71699 nav-item"><a title="Georgia" href="https://investmentu.com/best-places-to-retire-in-georgia/" class="dropdown-item">Georgia</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71700" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71700 nav-item"><a title="Hawaii" href="https://investmentu.com/best-places-to-retire-in-hawaii/" class="dropdown-item">Hawaii</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71701" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71701 nav-item"><a title="Texas" href="https://investmentu.com/best-places-to-retire-in-texas/" class="dropdown-item">Texas</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71702" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71702 nav-item"><a title="USA" href="https://investmentu.com/best-places-to-retire-in-the-us/" class="dropdown-item">USA</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71703" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71703 nav-item"><a title="Mexico" href="https://investmentu.com/best-places-to-retire-in-mexico/" class="dropdown-item">Mexico</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71705" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71705 nav-item"><a title="Retirement Planning" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71705">Retirement Planning</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71705" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71708" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71708 nav-item"><a title="When to Retire" href="https://investmentu.com/when-to-retire/" class="dropdown-item">When to Retire</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71712" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71712 nav-item"><a title="529 Rule" href="https://investmentu.com/5-529-plan-rules-grandparents-should-know/" class="dropdown-item">529 Rule</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71713" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71713 nav-item"><a title="The SECURE Act" href="https://investmentu.com/secure-act-retirement-bill/" class="dropdown-item">The SECURE Act</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71714" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71714 nav-item"><a title="How Much Do I Need to Retire?" href="https://investmentu.com/how-much-do-i-need-to-retire/" class="dropdown-item">How Much Do I Need to Retire?</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71715" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71715 nav-item"><a title="Can Retirement Consultants Help?" href="https://investmentu.com/retirement-plan-consultants/" class="dropdown-item">Can Retirement Consultants Help?</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71716" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71716 nav-item"><a title="Retirement Quotes" href="https://investmentu.com/retirement-quotes/" class="dropdown-item">Retirement Quotes</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71720" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71720 nav-item"><a title="Retirement Living" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71720">Retirement Living</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71720" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71721" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71721 nav-item"><a title="Retirement Income Solutions" href="https://investmentu.com/retirement-income-solutions/" class="dropdown-item">Retirement Income Solutions</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71722" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71722 nav-item"><a title="Retirement Villages" href="https://investmentu.com/retirement-villages/" class="dropdown-item">Retirement Villages</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71723" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71723 nav-item"><a title="Real Estate investing" href="https://investmentu.com/how-to-invest-in-real-estate-using-your-retirement-account/" class="dropdown-item">Real Estate investing</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71724" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71724 nav-item"><a title="Florida Retirement Communities" href="https://investmentu.com/retirement-communities-in-florida/" class="dropdown-item">Florida Retirement Communities</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71725" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71725 nav-item"><a title="Retirement Savings Habits" href="https://investmentu.com/strategies-building-better-savings-habits/" class="dropdown-item">Retirement Savings Habits</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71726" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71726 nav-item"><a title="Secrets to Healthy Retirement" href="https://investmentu.com/age-well-retirement-health-practices/" class="dropdown-item">Secrets to Healthy Retirement</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71727" class="mega-menu-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-71727 nav-item"><a title="Retirement Accounts" href="#" data-toggle="hover" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-71727">Retirement Accounts</a>
+	<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-71727" role="menu">
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71728" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71728 nav-item"><a title="What Is a 401k?" href="https://investmentu.com/what-is-a-401k-plan/" class="dropdown-item">What Is a 401k?</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71729" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71729 nav-item"><a title="What Is an IRA?" href="https://investmentu.com/what-is-an-ira-traditional-vs-roth/" class="dropdown-item">What Is an IRA?</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71730" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71730 nav-item"><a title="What is an IRA Rollover?" href="https://investmentu.com/what-is-an-ira-rollover/" class="dropdown-item">What is an IRA Rollover?</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71731" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71731 nav-item"><a title="IRA vs. 401(k)" href="https://investmentu.com/ira-vs-401k-retirement-plan-differences/" class="dropdown-item">IRA vs. 401(k)</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71732" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71732 nav-item"><a title="What is a 403(b)" href="https://investmentu.com/what-is-a-403b-plan/" class="dropdown-item">What is a 403(b)</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-71733" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71733 nav-item"><a title="Should You Borrow From Your 401(k)?" href="https://investmentu.com/should-borrow-401k/" class="dropdown-item">Should You Borrow From Your 401(k)?</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul>    </div>
+      <ul class="nav nav-social d-lg-flex">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/investmentu/" aria-label="Facebook">
+              <img src="/wp-content/themes/InvestmentU-2019/assets/images/icon-facebook.svg" class="facebook-icon" alt="Facebook" style="max-width: 25px;">
+          </a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#" aria-label="Twitter">
+            <img src="/wp-content/themes/InvestmentU-2019/assets/images/icon-twitter.svg" class="twitter-icon" alt="Twitter" style="max-width: 25px;">
+          </a>
+        </li> -->
+        <li class="nav-item d-none d-lg-inline-block">
+          <div id="navbar" class="navbar-collapse collapse">
+            <div class="hidden-xs navbar-form navbar-right">
+                <a href="#search" class="search-form-trigger nav-link"  data-toggle="search-form" aria-label="Toggle search form">
+                    <img src="/wp-content/themes/InvestmentU-2019/assets/images/icon-search.svg" class="search-icon" alt="Search"  style="max-width: 25px;">
+                </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="search-form-wrapper col-lg-12">
+      <form role="search" method="get" class="search-form" action="https://investmentu.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>    </div>
+  </nav>
+
+
+
+  <!-- sticky signup form -->
+  <div class="sticky-top container-fluid py-2" id="small-signup-form">
+
+      <span id='close' class="d-block d-lg-none d-xl-none " style="float: right; cursor: pointer; color:#fff;" onclick='this.parentNode.parentNode.removeChild(this.parentNode); return false;'>x</span>
+      <div class="row">
+      <div class="container">
+        
+  <!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v4.2.1 -->
+  <ins
+    data-revive-zoneid="1"
+    data-revive-block="0"
+    data-revive-blockcampaign="0"
+    data-revive-id="e381927fbe56d09bfb1b715794e5c109"
+    data-revive-category="dividend-stocks"
+    data-revive-tags="dividend-stocks,how-to-invest-in-dividend-stocks,how-to-invest-in-stocks,investing-in-dividend-stocks,stocks"
+    data-revive-author="Brian M. Reiser"
+    data-revive-cookies=""
+    data-revive-referral-source=""
+    data-revive-lytics=""
+  ></ins>
+  <script async src="https://ads.web.oxfordclub.com/www/delivery/asyncjs.php"></script>      </div>
+    </div>
+  </div>
+
+
+<!-- <div class="wrap container" role="document">
+  <div class="content row">
+    <main> -->
+  <main>
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-12 col-md-8">
+          <div class="row">
+            <div class="col-12">
+              <article>
+                <div class="article-header mb-2">
+                                    <a href="https://investmentu.com/category/dividend-stocks/">
+                    <span class="category-tag generic-color cat-dividend-stocks">Dividend Stocks</span>
+                  </a>
+                  <h1 class="page-title">How to Invest in Dividend Stocks</h1>
+                  <div class="byline-container py-2">
+    
+        <div class="align-middle d-inline-block ml-1">
+        <p class="byline m-0">By <a href="https://investmentu.com/author/breiser/" rel="author" class="fn">Brian M. Reiser</a></p>
+                    <p class="publication-source m-0"><em>Originally posted <time class="updated" datetime="2020-08-11T17:55:48+00:00">August 11, 2020</time></em>
+            </p>
+                
+    </div>
+</div>
+                </div>
+                <!-- <img src="" class="float-right ml-3 mb-3 featured-image"> -->
+                <p>Dividend stocks are often a great investment since they can provide both capital appreciation as well as income. Yet many people don&#8217;t know how to invest in dividend stocks.</p>
+<p>In this article, we&#8217;re going to tackle that question. We&#8217;ll also look deeper into why you might want to consider investing in dividend stocks&#8230; and some of the pitfalls to watch out for.</p>
+<p>We&#8217;ll look at strategies specific to dividend stocks and provide resources on how to buy stocks in general. That way, when you&#8217;re ready to buy, you&#8217;ll know exactly what to do and how to do it.</p>
+<p>So let&#8217;s get started.</p>
+<p><img class="alignnone wp-image-77454 img-fluid" src="https://investmentu.com/wp-content/uploads/2020/08/how-to-invest-in-dividend-stocks-300x192.jpg" alt="A young woman learning how to invest in dividend stocks on her phone" width="730" height="467" srcset="https://investmentu.com/wp-content/uploads/2020/08/how-to-invest-in-dividend-stocks-300x192.jpg 300w, https://investmentu.com/wp-content/uploads/2020/08/how-to-invest-in-dividend-stocks-600x384.jpg 600w, https://investmentu.com/wp-content/uploads/2020/08/how-to-invest-in-dividend-stocks.jpg 730w" sizes="(max-width: 730px) 100vw, 730px" /></p>
+<h2><strong>What Are Dividend Stocks?</strong></h2>
+<p>Before we dive into how to invest in dividend stocks, we first need to take a look at what exactly these stocks are.</p>
+<p>Simply put, dividend stocks are stocks that pay out or distribute a percentage of their earnings to shareholders as dividends on a regular and periodic basis.</p>
+<p>Nearly 84% of the companies in the S&amp;P 500 index <a href="https://www.finra.org/investors/insights/how-companies-use-their-cash-dividends#:~:text=Nearly%2084%20percent%20of%20companies,to%20S%26P%20Dow%20Jones%20Indices." target="_blank" rel="noopener noreferrer">pay dividends</a>. But why would a company engage in this practice? It&#8217;s simple: Companies need to find ways to give shareholders value in exchange for their investments.</p>
+<p>There are several ways a company can provide value to shareholders:</p>
+<ul>
+<li>Invest capital in projects that generate large returns and increase the price of the stock</li>
+<li>Engage in share buybacks that can increase the price of the stock</li>
+<li>Distribute dividends.</li>
+</ul>
+<p>The good thing about dividends for investors is that the quality companies that issue them tend to distribute them on a regular basis, which creates a steady flow of income from shareholder investments.</p>
+<p>Of course, you can invest in great stocks like some <a href="https://investmentu.com/how-to-buy-blue-chip-stocks/" target="_blank" rel="noopener noreferrer">blue chip stocks </a>that don&#8217;t pay dividends, which is absolutely fine if you&#8217;re primarily seeking capital appreciation. But if income is your thing, dividend stocks are a great option. Generally, dividend stocks can earn you much higher yields than government or corporate bonds &#8211; especially when you also take capital appreciation into consideration.</p>
+<h2><strong>How to Invest in Dividend Stocks</strong></h2>
+<p>The first thing you&#8217;ll need to do when learning how to invest in dividend stocks is to identify the stocks that pay dividends. Simple, right? When beginning your research, you may simply want to start with large companies that you&#8217;re familiar with.</p>
+<p>The following are dividend stocks in the Dow Jones Industrial Average you&#8217;ve likely heard of:</p>
+<ul>
+<li><strong>Exxon Mobil </strong>(NYSE: XOM)</li>
+<li><strong>IBM</strong> (NYSE: IBM)</li>
+<li><strong>Boeing</strong> (NYSE: BA)</li>
+<li><strong>Verizon</strong> (NYSE: VZ)</li>
+<li><strong>Coca-Cola </strong>(NYSE: KO)</li>
+</ul>
+<p>So let&#8217;s say that you&#8217;re an avid soda drinker and you decide you are interested in purchasing shares of Coca-Cola. Should you just take the plunge and dive right in?</p>
+<p>Not so fast.</p>
+<p>Once you&#8217;ve picked a company you&#8217;re interested in, the next thing you&#8217;ll want to do is evaluate that stock. But how do you evaluate a dividend stock?</p>
+<p>Let&#8217;s take a closer look.</p>
+<h3><strong>Evaluating Dividend Stocks</strong></h3>
+<p>When learning how to invest in dividends stocks, one of the most important metrics that you will need to look at is the <strong>dividend yield</strong>. The dividend yield is a measure of how much dividend the company pays compared with the total price of the stock.</p>
+<p>As of the afternoon of August 10, <a href="https://www.cnbc.com/quotes/?symbol=KO&amp;qsearchterm=k" target="_blank" rel="noopener noreferrer">the dividend yield for Coca-Cola</a> was around 3.43%. You can calculate that number by dividing the annual dividend of $1.64 – seen under &#8220;Dividend (TTM)&#8221; in the link above – by the day&#8217;s share price, which was right around $47.77.</p>
+<p>Is this a good dividend yield? That&#8217;s an excellent question. Generally, you can get a sense of what&#8217;s a good yield by comparing the stock you picked with other similar stocks.</p>
+<p>Since Coca-Cola is a Dow Jones stock, one way to compare it to another is to look at the dividend yield <a href="https://www.dividend.com/dividend-stocks/dow-30-dividend-stocks/#tm=3-dow-30&amp;r=Webpage%231326&amp;f_4=true" target="_blank" rel="noopener noreferrer">compared with other Dow Jones stocks</a>. You&#8217;ll notice that Coca-Cola is on the higher end of the spectrum, which can be a good sign.</p>
+<p>Another thing you can do is compare Coca-Cola with other beverage brands like <strong>PepsiCo</strong> (Nasdaq: PEP). As of August 10, PepsiCo is yielding only around 3.03%, which means that Coca-Cola gets you more yield for your money.</p>
+<h3>Red Flags to Watch</h3>
+<p>Now that you have some idea of how to invest in dividend stocks, there are certain pitfalls that you&#8217;ll need to be aware of. For example, what if a stock has a really high dividend yield?</p>
+<p>On the one hand, you may think a really high yield is good. After all, it means you are earning a higher amount of income with each payment. But it could also be a sign of trouble. After all, if a company distributes too much of its earnings out to investors, it may not be investing enough back into the company to continue to spur its own growth.</p>
+<p>Another red flag to look for is a dividend stock with a high pay-out ratio. Similar to the dividend yield, if the payout ratio is too high, it can mean trouble. In fact, if a payout ratio is 100% or higher of earnings distributed, that may mean that future dividend payments are in big trouble. The dividend may be slashed or stopped altogether.</p>
+<p>And of course, you also want to be aware of the underlying fundamentals of the company. In general, you should understand how the business works and keep an eye on its profits, revenues, cash flows and related metrics in financial statements.</p>
+<p>If you examine these metrics and determine that the dividend stock is of high quality, <em>then</em> you&#8217;re ready to go ahead and purchase the stock. For more information on how to do that, you&#8217;ll want to check out our article on <a href="https://investmentu.com/how-to-invest-in-stocks/" target="_blank" rel="noopener noreferrer">How to Invest in Stocks</a>.</p>
+<h2><strong>Concluding Thoughts</strong></h2>
+<p>When you put together your stock portfolio, a great strategy is to diversify. You can include everything from <a href="https://investmentu.com/how-to-invest-in-marijuana-stocks/" target="_blank" rel="noopener noreferrer">pot stocks</a> to biotech and energy. You may even consider <a href="https://investmentu.com/how-to-invest-in-penny-stocks/" target="_blank" rel="noopener noreferrer">looking at some penny stocks</a>, even though those tend to be riskier.</p>
+<p>But dividend stocks can also be a key portion of your portfolio to help you generate solid income. For more analysis and views on dividend stocks, <strong>I recommend signing up for our free <em>Investment U</em> e-letter</strong>.</p>
+<p>Now that you have a good idea of how to invest in dividend stocks, it&#8217;s time to go ahead and make your mark. Identify some quality stocks and start generating some investment income today.</p>
+                <!-- Lead gen ad for whichever franchise fits best -->  
+                                <!-- Author Introduction -->
+                <hr style="color:#bdbdbd"/>
+
+    <h6>About <a href="https://investmentu.com/author/breiser/" rel="author" class="fn p-black">Brian M. Reiser</a></h6>
+    <p><p>Brian M. Reiser has a Bachelor of Science degree in Management with a concentration in finance from the <a href="https://www.binghamton.edu/som/" target="_blank" rel="noopener">School of Management at Binghamton University</a>.</p>
+<p>He also holds a B.A. in philosophy from Columbia University and an M.A. in philosophy from the University of South Florida.</p>
+<p>His primary interests at Investment U include personal finance, debt, tech stocks and more.</p>
+</p>
+    <!-- <h6>Like what you’re reading from ? Sign up for his eletter, .</h6> -->
+
+
+  <div class="native-leadgen-signup">
+    
+  <!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v4.2.1 -->
+  <ins
+    data-revive-zoneid="3"
+    data-revive-block="0"
+    data-revive-blockcampaign="0"
+    data-revive-id="e381927fbe56d09bfb1b715794e5c109"
+    data-revive-category="dividend-stocks"
+    data-revive-tags="dividend-stocks,how-to-invest-in-dividend-stocks,how-to-invest-in-stocks,investing-in-dividend-stocks,stocks"
+    data-revive-author="Brian M. Reiser"
+    data-revive-cookies=""
+    data-revive-referral-source=""
+    data-revive-lytics=""
+  ></ins>
+  <script async src="https://ads.web.oxfordclub.com/www/delivery/asyncjs.php"></script>  </div>
+              </article>
+            </div>
+          </div>
+          <!-- Most recent articles by the same author -->
+          <div class="row my-4 row-eq-height category-article-preview-row border-top related-author-posts pt-4">
+    <div class="col-12">
+        <h6>Articles by <a href="https://investmentu.com/author/breiser/" rel="author" class="fn p-black">Brian M. Reiser</a></h6>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3">
+    <a href="https://investmentu.com/building-wealth-in-your-70s/#">
+    <img src="https://investmentu.com/wp-content/uploads/2020/08/building-wealth-in-your-70s.jpg" class="small-featured-article-image img-fluid">
+    </a>
+    <div class="small-featured-article-excerpt">
+    <a href="https://investmentu.com/category/financial-freedom/">
+    <span class="category-tag generic-color cat-financial-freedom ">Financial Freedom</span>
+    </a>
+    <h6><a href="https://investmentu.com/building-wealth-in-your-70s/">5 Steps to Building Wealth in Your 70s</a></h6>
+    <p class="date-posted m-0 category-tag">August 6, 2020</p>
+
+    </div>
+    </div><div class="col-12 col-sm-6 col-lg-3">
+    <a href="https://investmentu.com/building-wealth-in-your-60s/#">
+    <img src="https://investmentu.com/wp-content/uploads/2020/08/building-wealth-in-your-60s.jpg" class="small-featured-article-image img-fluid">
+    </a>
+    <div class="small-featured-article-excerpt">
+    <a href="https://investmentu.com/category/financial-freedom/">
+    <span class="category-tag generic-color cat-financial-freedom ">Financial Freedom</span>
+    </a>
+    <h6><a href="https://investmentu.com/building-wealth-in-your-60s/">5 Steps to Building Wealth in Your 60s</a></h6>
+    <p class="date-posted m-0 category-tag">August 4, 2020</p>
+
+    </div>
+    </div><div class="col-12 col-sm-6 col-lg-3">
+    <a href="https://investmentu.com/building-wealth-in-your-50s/#">
+    <img src="https://investmentu.com/wp-content/uploads/2020/07/building-wealth-in-your-50s.jpg" class="small-featured-article-image img-fluid">
+    </a>
+    <div class="small-featured-article-excerpt">
+    <a href="https://investmentu.com/category/financial-freedom/">
+    <span class="category-tag generic-color cat-financial-freedom ">Financial Freedom</span>
+    </a>
+    <h6><a href="https://investmentu.com/building-wealth-in-your-50s/">5 Steps to Building Wealth in Your 50s</a></h6>
+    <p class="date-posted m-0 category-tag">August 3, 2020</p>
+
+    </div>
+    </div><div class="col-12 col-sm-6 col-lg-3">
+    <a href="https://investmentu.com/building-wealth-in-your-40s/#">
+    <img src="https://investmentu.com/wp-content/uploads/2020/07/building-wealth-in-your-40s.jpg" class="small-featured-article-image img-fluid">
+    </a>
+    <div class="small-featured-article-excerpt">
+    <a href="https://investmentu.com/category/financial-freedom/">
+    <span class="category-tag generic-color cat-financial-freedom ">Financial Freedom</span>
+    </a>
+    <h6><a href="https://investmentu.com/building-wealth-in-your-40s/">5 Steps to Building Wealth in Your 40s</a></h6>
+    <p class="date-posted m-0 category-tag">July 28, 2020</p>
+
+    </div>
+    </div>    
+</div>          <!-- Related Posts -->
+          <div class="row my-4 row-eq-height category-article-preview-row border-top related-category-posts pt-4">
+        <div class="col-12">
+        <h6>Related Articles</h6>
+    </div>
+    
+    <div class="col-12 col-sm-6 col-lg-3">
+        <a href="https://investmentu.com/wp-carey-dividend-safety/">
+                            <img src="https://investmentu.com/wp-content/uploads/2020/08/20200805_WR_Coins_House-300x200-1.png" class="small-featured-article-image img-fluid">
+                    </a>
+        <div class="small-featured-article-excerpt">
+                <a href="https://investmentu.com/category/dividend-stocks/">
+            <span class="category-tag generic-color cat-dividend-stocks">Dividend Stocks</span>
+        </a>
+
+        <a href="https://investmentu.com/wp-carey-dividend-safety/">
+            <h6>A REIT You May Want to Hold On to in 2020</h6>
+            <p class="date-posted m-0 category-tag">August 5, 2020 </p>
+        </a>
+        </div>
+    </div>
+
+    
+    <div class="col-12 col-sm-6 col-lg-3">
+        <a href="https://investmentu.com/altria-mo-dividend-safety/">
+                            <img src="https://investmentu.com/wp-content/uploads/2020/07/20200729_WR_Person_Smoking-300x200-1.png" class="small-featured-article-image img-fluid">
+                    </a>
+        <div class="small-featured-article-excerpt">
+                <a href="https://investmentu.com/category/dividend-stocks/">
+            <span class="category-tag generic-color cat-dividend-stocks">Dividend Stocks</span>
+        </a>
+
+        <a href="https://investmentu.com/altria-mo-dividend-safety/">
+            <h6>Altria Takes On Its Biggest Challenges Yet</h6>
+            <p class="date-posted m-0 category-tag">July 29, 2020 </p>
+        </a>
+        </div>
+    </div>
+
+    
+    <div class="col-12 col-sm-6 col-lg-3">
+        <a href="https://investmentu.com/passive-income-stocks-2020/">
+                            <img src="https://investmentu.com/wp-content/uploads/2020/07/shutterstock_1738981091-600x384.jpg" class="small-featured-article-image img-fluid">
+                    </a>
+        <div class="small-featured-article-excerpt">
+                <a href="https://investmentu.com/category/dividend-stocks/">
+            <span class="category-tag generic-color cat-dividend-stocks">Dividend Stocks</span>
+        </a>
+
+        <a href="https://investmentu.com/passive-income-stocks-2020/">
+            <h6>The Best Passive Income Stocks for 2020</h6>
+            <p class="date-posted m-0 category-tag">July 23, 2020 </p>
+        </a>
+        </div>
+    </div>
+
+    
+    <div class="col-12 col-sm-6 col-lg-3">
+        <a href="https://investmentu.com/york-water-company-yorw-dividend-safety/">
+                            <img src="https://investmentu.com/wp-content/uploads/2020/07/20200722_WR_Running_Investors-300x200-1.png" class="small-featured-article-image img-fluid">
+                    </a>
+        <div class="small-featured-article-excerpt">
+                <a href="https://investmentu.com/category/dividend-stocks/">
+            <span class="category-tag generic-color cat-dividend-stocks">Dividend Stocks</span>
+        </a>
+
+        <a href="https://investmentu.com/york-water-company-yorw-dividend-safety/">
+            <h6>York Water Company Dividend Safety: Will This 200-Year Dividend Streak Continue?</h6>
+            <p class="date-posted m-0 category-tag">July 22, 2020 </p>
+        </a>
+        </div>
+    </div>
+
+    </ul></div>
+
+
+        </div>
+        <!-- SIDEBAR -->
+        <!-- MAKE THIS STICKY -->
+<div class="col-12 col-md-4 sticky-top pb-5">
+    <div class="sticky-top">
+        <h5 class="pb-2" style="border-bottom: 1px solid #d3d3d3;font-weight: bold;">Popular Posts</h5>
+        <nav class="nav-primary ">
+        <div class="menu-sidebar-popular-posts-container"><ul id="menu-sidebar-popular-posts" class="h-popular-posts p-0 mb-4"><li id="menu-item-74464" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-74464"><a href="https://investmentu.com/rivian-ipo/">Rivian IPO: Will Rivian Go Public?</a></li>
+<li id="menu-item-76870" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76870"><a href="https://investmentu.com/invest-in-dogecoin/">Is it Smart to Invest in Dogecoin?</a></li>
+<li id="menu-item-76874" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76874"><a href="https://investmentu.com/snowflake-ipo/">Snowflake IPO: Data Warehousing Company Confidentially Files</a></li>
+<li id="menu-item-71686" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-71686"><a href="https://investmentu.com/tiktok-ipo-will-bytedance-go-public-in-2020/">TikTok IPO: Will ByteDance Go Public in 2020?</a></li>
+<li id="menu-item-76871" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76871"><a href="https://investmentu.com/hyliion-ipo-stock-via-merger/">Hyliion IPO Announced via Tortoise Acquisition Merger</a></li>
+<li id="menu-item-76872" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76872"><a href="https://investmentu.com/impossible-foods-stock/">Can You Buy Impossible Foods Stock?</a></li>
+<li id="menu-item-76873" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76873"><a href="https://investmentu.com/the-best-side-hustles-for-2020/">The Best Side Hustles for 2020</a></li>
+</ul></div>        </nav>
+        <section class="widget_text widget custom_html-2 widget_custom_html"><div class="textwidget custom-html-widget"><!-- <div id="popular-posts">
+            <p class="mb-3">popular posts</p>
+            <div class="small-featured-article-excerpt mb-3 pb-3">
+              <a href="http://localhost/investmentu2019/marijuana-stocks/">
+                <span class="category-tag">Marijuana Stocks</span>
+              </a>
+              <a href="http://localhost/investmentu2019/2019/06/25/test-post-7/">
+                <h6>Walking on the Beach Like Four Stock Photo Models</h6>
+              </a>
+            </div>
+            <div class="small-featured-article-excerpt mb-3 pb-3">
+               <a href="http://localhost/investmentu2019/marijuana-stocks/">
+                <span class="category-tag">Marijuana Stocks</span>
+              </a>
+              <a href="http://localhost/investmentu2019/2019/06/25/test-post-6/">
+                <h6>Hungover? Give Up and Order Room Service!</h6>
+              </a>
+            </div>
+            <div class="small-featured-article-excerpt mb-3 pb-3">
+              <a href="http://localhost/investmentu2019//investment-opportunities/">
+                <span class="category-tag">Investment Opportunities</span>
+              </a>
+              <a href="http://localhost/investmentu2019/2019/06/25/test-post-5/">
+                <h6>This Pug Would Be Da Belle of Da Ball</h6>
+              </a>
+            </div>
+          </div>	--></div></section>        
+  <!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v4.2.1 -->
+  <ins
+    data-revive-zoneid="4"
+    data-revive-block="0"
+    data-revive-blockcampaign="0"
+    data-revive-id="e381927fbe56d09bfb1b715794e5c109"
+    data-revive-category="dividend-stocks"
+    data-revive-tags="dividend-stocks,how-to-invest-in-dividend-stocks,how-to-invest-in-stocks,investing-in-dividend-stocks,stocks"
+    data-revive-author="Brian M. Reiser"
+    data-revive-cookies=""
+    data-revive-referral-source=""
+    data-revive-lytics=""
+  ></ins>
+  <script async src="https://ads.web.oxfordclub.com/www/delivery/asyncjs.php"></script>
+    </div>
+</div>
+      </div>
+    </div>
+
+  </main>
+<!-- </main>/.main -->
+<!-- </div>/.content -->
+<!-- </div>/.wrap -->
+<footer>
+  <nav class="container-fluid py-4">
+     <div class="row">
+          <div class="container">
+             <div class="row">
+                <ul id="menu-footer-menu" class="nav mx-auto footer-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-61901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61901 nav-item"><a title="About Us" href="https://investmentu.com/about-us/" class="nav-link">About Us</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-61897" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61897 nav-item"><a title="Contact" href="https://investmentu.com/contact/" class="nav-link">Contact</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-64619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64619 nav-item"><a title="Partnerships" href="https://investmentu.com/partnerships/" class="nav-link">Partnerships</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-61900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61900 nav-item"><a title="Disclaimer" href="https://investmentu.com/disclaimer/" class="nav-link">Disclaimer</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-61898" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61898 nav-item"><a title="FAQ" href="https://investmentu.com/faq/" class="nav-link">FAQ</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-61902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61902 nav-item"><a title="Privacy Policy" href="https://investmentu.com/privacy-policy-2/" class="nav-link">Privacy Policy</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-61899" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61899 nav-item"><a title="Whitelist Us" href="https://investmentu.com/whitelist/" class="nav-link">Whitelist Us</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-72537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72537 nav-item"><a title="Do Not Sell My Info" href="https://privacyportal-cdn.onetrust.com/dsarwebform/90ddaa87-9d70-4282-9d4f-d6cbd96bd224/c4dd28cf-6762-4f86-acf4-3e1c6ec51a3a.html" class="nav-link">Do Not Sell My Info</a></li>
+</ul>              </div>
+          </div>
+      </div>
+  </nav>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            // Homepage carousel
+            $('.carousel .carousel-item').each(function(){
+                var minPerSlide = 3;
+                var next = $(this).next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+                next.children(':first-child').clone().appendTo($(this));
+
+                for (var i=0;i<minPerSlide;i++) {
+                    next=next.next();
+                    if (!next.length) {
+                        next = $(this).siblings(':first');
+                    }
+
+                    next.children(':first-child').clone().appendTo($(this));
+                }
+            });
+        });
+    </script>
+<div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:0px;left:50%;transform:translateX(-50%);background-color:#ffffff;"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Finvestmentu.com%2Fhow-to-invest-in-dividend-stocks%2F&amp;linkname=How%20to%20Invest%20in%20Dividend%20Stocks%20Like%20a%20Pro%20-%20Investment%20U" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Finvestmentu.com%2Fhow-to-invest-in-dividend-stocks%2F&amp;linkname=How%20to%20Invest%20in%20Dividend%20Stocks%20Like%20a%20Pro%20-%20Investment%20U" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Finvestmentu.com%2Fhow-to-invest-in-dividend-stocks%2F&amp;linkname=How%20to%20Invest%20in%20Dividend%20Stocks%20Like%20a%20Pro%20-%20Investment%20U" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Finvestmentu.com%2Fhow-to-invest-in-dividend-stocks%2F&amp;linkname=How%20to%20Invest%20in%20Dividend%20Stocks%20Like%20a%20Pro%20-%20Investment%20U" title="LinkedIn" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Finvestmentu.com%2Fhow-to-invest-in-dividend-stocks%2F&amp;linkname=How%20to%20Invest%20in%20Dividend%20Stocks%20Like%20a%20Pro%20-%20Investment%20U" title="Pinterest" rel="nofollow noopener" target="_blank"></a></div>  
+            <script type="text/javascript">
+
+              jQuery( document ).ready(function($) {
+
+                var push_ui_config = {
+                  'bellbgcolor' : '#1f82c5',
+                  'bellstatuscolor' : '#f44336',
+                  'bubblecolor' :'#1f82c5',
+                  'bubbletext' : "Don't miss the latest news. <strong>Click the bell</strong> to sign up for notifications!",
+                  'bubbletextcolor' : '#fff',
+                };
+
+                var overlayhtml = '<div class="push_overlay" style="opacity: 0; z-index: 10000000;left: 0px; position: fixed; display: table; top: 0px; width: 100vw; height: 100vh; background: rgba(0,0,0,0.8);"><p style="vertical-align: middle; text-align: center; display: table-cell; color: white; font-size: 20px;"><svg style="height:55px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162.3 162.3"><path d="M127.5 162.3c-44.7 0-82.2-47-87.9-109.7H7L59.7 0l52.6 52.6H79.8c4.7 50 31.4 91.5 65.6 101.4l9.9 2.9 -9.9 2.9C139.6 161.5 133.6 162.3 127.5 162.3zM21.5 46.7h23.7l0.2 2.8c4.6 61 39.9 107 82.1 107 2.1 0 4.2-0.1 6.3-0.4 -32.8-15.3-56.5-56.3-60.3-106.2l-0.2-3.2h24.5L59.7 8.4 21.5 46.7z" fill="#fff"/></svg><strong>Click allow to enable push notifications</strong></p></div>';
+
+                var pushcrewDisplay = sessionStorage.getItem('pushcrewDisplay');
+             
+
+                if ($(window).width() > 980) {
+
+                  (function(p,u,s,h){
+                      p._pcq=p._pcq||[];
+                      p._pcq.push(['_currentTime',Date.now()]);
+                      s=u.createElement('script');
+                      s.type='text/javascript';
+                      s.async=true;
+                      s.crossOrigin = 'anonymous';
+                      s.src='https://cdn.pushcrew.com/js/345df12e8fcb727cc2eacac6cf36afe1.js';
+                      h=u.getElementsByTagName('script')[0];
+                      h.parentNode.insertBefore(s,h);
+                  })(window,document);
+
+                  window._pcq = window._pcq || [];
+
+                  //will execute callback function when VWO Engage API is ready
+                  _pcq.push(['APIReady', APISuccess, APIFailure]); 
+
+                  _pcq.push(['subscriptionSuccessCallback', subscriptionSuccess]); 
+
+                  _pcq.push(['subscriptionFailureCallback', subscriptionFailure]);
+
+                }
+
+
+                //When API is ready
+                function APISuccess() {
+                      //window._pcq.push(['triggerOptIn']);
+
+                    var scrollReached = false;
+
+                    if (pushcrew.subscriberId == false) {
+
+                        $('body').append(renderbell(push_ui_config));
+
+                        $('.pushbell').hover(
+                          function() {
+                            $('.speech-bubble').addClass('swing-in-top-fwd');
+                          }, function() {
+                            $('.speech-bubble').removeClass('swing-in-top-fwd').addClass('swing-out-top-bck');
+                          }
+                        );
+
+                        $('body').on('click', '.pushbell', function () {
+
+                          dataLayer.push({
+                              'event':'event_triggered',
+                              'event_category': 'Push',
+                              'event_action': 'Clicked Bell',
+                              'event_label': window.location.href
+                          });
+
+                          window._pcq.push(['triggerOptIn']);
+                          $('.pushbell').unbind('mouseenter mouseleave')
+                          $('body').append(overlayhtml);
+                          $('.push_overlay').addClass('fade-in-bl');
+
+                        });
+
+                        var pushcrewScrollReach = new Event('pushcrewScrollReach');
+
+                        $(window).on('scroll', function() {
+
+                            if (!scrollReached) {
+                                var s = $(window).scrollTop(),
+                                    d = $(document).height(),
+                                    c = $(window).height();
+
+                                var scrollPercent = (s / (d - c)) * 100;
+
+                                if (scrollPercent > 80) {
+                                    scrollReached = true;
+                                    document.dispatchEvent(pushcrewScrollReach);
+                                }
+                            }
+                          
+                        });
+
+                        document.addEventListener('pushcrewScrollReach', function (e) { 
+
+                            if (pushcrewDisplay == null) {
+                              $('.speech-bubble').addClass('swing-in-top-fwd');
+                              sessionStorage.setItem('pushcrewDisplay', 'true');
+
+                              dataLayer.push({
+                                'event':'event_triggered',
+                                'event_category': 'Push',
+                                'event_action': 'Displayed Bell Message',
+                                'event_label': window.location.href
+                              });
+
+                            }
+
+                            dataLayer.push({
+                              'event':'event_triggered',
+                              'event_category': 'Push',
+                              'event_action': 'Bell Wobbled',
+                              'event_label': window.location.href
+                            });
+                          
+                            
+                            $('.pushbell').addClass('wobble-hor-bottom');
+                            
+                        });
+
+                        
+                    }
+
+                    //already subscribed
+                    else {
+
+                        /*push_ui_config.bellstatuscolor = '#3bdc43';
+                        
+                        $('.pushbell').remove();
+                        $('body').append(renderbell(push_ui_config));
+
+                        $('body').on('click', '.pushbell', function () {
+                          _pcq.push(['triggerOptOut']);
+                        });*/
+                        
+
+                        if (typeof Portrait !== 'undefined') {
+                            pushcrewPersistance();
+                        }
+                        else {
+                            document.addEventListener('portraitReady', function (e) { 
+                                pushcrewPersistance();
+                            }, false);
+                        }
+                        
+
+                    }
+                    
+                }
+
+
+                function pushcrewPersistance() {
+                    
+                    var pushcrew_data = {};
+
+                    Portrait.fetch('pushcrew', function (data) {
+
+                        pushcrew_data = data;
+
+                        if (typeof pushcrew_data.id == "undefined") {
+                            pushcrew_data.id = pushcrew.subscriberId;
+                        }
+                        
+                        if (typeof Portrait.dataLayer.page.page_queryparams !== 'undefined' && Portrait.dataLayer.page.page_queryparams.utm_medium == "push_notification") {
+
+                            if (typeof pushcrew_data.clickthrough !== "undefined") {
+                                pushcrew_data.clickthrough++;
+                                window._pcq.push(['tag', 'clickthrough', pushcrew_data.clickthrough]);
+                            }
+                            else {
+                                window._pcq.push(['tag', 'clickthrough', 1]);
+                                pushcrew_data.clickthrough = 1;
+                            }
+                        }
+
+                        Portrait.store('pushcrew', pushcrew_data);
+
+                    });
+
+                }
+
+
+                //when API failed
+                function APIFailure(values) {
+
+                    dataLayer.push({
+                      'event':'event_triggered',
+                      'event_category': 'Push',
+                      'event_action': 'API Failure',
+                      'event_label': values.reasons
+                    });
+
+                    console.log(values.reasons) //It will give you the array of reasons why VWO Engage API could not get ready .For eg:- ["PRIVATE_BROWSING", "BROWSER_NOT_SUPPORTED"] etc.
+                }
+
+
+                //When someone successfully signs up
+                function subscriptionSuccess(subscriberId, values) {
+
+                  dataLayer.push({
+                    'event':'event_triggered',
+                    'event_category': 'Push',
+                    'event_action': 'Subscribe - Success',
+                    'event_label': window.location.href
+                  });
+
+                  
+                  push_ui_config.bellstatuscolor = '#3bdc43';
+                  $('.pushbell').remove();
+                  $('body').append(renderbell(push_ui_config));
+                  $('.speech-bubble').text('Thanks For Signing Up!');
+
+                  removebell();
+
+                  //push this to Portrait
+                  if (typeof Portrait !== 'undefined') {
+
+                      window._pcq.push(['tag', 'category', Portrait.dataLayer.page.page_category[0]]);
+
+                      Portrait.store('pushcrew', {
+                          'id' : subscriberId,
+                          'category' : Portrait.dataLayer.page.page_category[0],
+                          'smartcode' : "345df12e8fcb727cc2eacac6cf36afe1"
+                      });
+                  }
+
+                    //console.log(subscriberId); //will output the user's subscriberId
+                    //console.log(values.status); // SUBSCRIBED or ALREADYSUBSCRIBED
+                    //console.log(values.message) // 'User has subscribed to push notifications.' or 'User is already subscribed to push notifications.'
+                    //console.log('Now you may run code which should be executed once user gets successfully subscribed.');
+                }
+
+                function subscriptionFailure(value) {
+
+
+                    dataLayer.push({
+                      'event':'event_triggered',
+                      'event_category': 'Push',
+                      'event_action': 'Subscribe - Failed',
+                      'event_label': window.location.href
+                    });
+
+                    $('body .pushbell, .speech-bubble, .push_overlay').remove();
+                } 
+
+                function removebell() {
+                  $('.push_overlay').fadeOut();
+
+                  setTimeout(function (){
+                    $('.speech-bubble').removeClass('swing-in-top-fwd').addClass('swing-out-top-bck');
+                  }, 3000)
+
+                  setTimeout(function (){
+                    $('body .pushbell').addClass('slide-out-left');
+                  }, 4000)
+
+                  setTimeout(function (){
+                    $('body .pushbell, .speech-bubble').remove();
+                  }, 6000)
+
+                }
+
+                function renderbell (push_ui_config) {
+                  var bellhtml = '<style>.slide-out-left{-webkit-animation:slide-out-left .5s cubic-bezier(.55,.085,.68,.53) both;animation:slide-out-left .5s cubic-bezier(.55,.085,.68,.53) both} @-webkit-keyframes slide-out-left{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}100%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}}@keyframes slide-out-left{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}100%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}} .fade-in-bl{-webkit-animation:fade-in-bl .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-bl .6s cubic-bezier(.39,.575,.565,1.000) both} @-webkit-keyframes fade-in-bl{0%{-webkit-transform:translateX(-50px) translateY(50px);transform:translateX(-50px) translateY(50px);opacity:0}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);opacity:1}}@keyframes fade-in-bl{0%{-webkit-transform:translateX(-50px) translateY(50px);transform:translateX(-50px) translateY(50px);opacity:0}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);opacity:1}} .swing-out-top-bck{-webkit-animation:swing-out-top-bck .45s cubic-bezier(.6,-.28,.735,.045) both;animation:swing-out-top-bck .45s cubic-bezier(.6,-.28,.735,.045) both} @-webkit-keyframes swing-out-top-bck{0%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}100%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}}@keyframes swing-out-top-bck{0%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}100%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}} @-webkit-keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}@keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}} .swing-in-top-fwd{-webkit-animation:swing-in-top-fwd 1s cubic-bezier(.175,.885,.32,1.275) 1s both;animation:swing-in-top-fwd 1s cubic-bezier(.175,.885,.32,1.275) both} @-webkit-keyframes wobble-hor-bottom{0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(-6deg);transform:translateX(-30px) rotate(-6deg)}30%{-webkit-transform:translateX(15px) rotate(6deg);transform:translateX(15px) rotate(6deg)}45%{-webkit-transform:translateX(-15px) rotate(-3.6deg);transform:translateX(-15px) rotate(-3.6deg)}60%{-webkit-transform:translateX(9px) rotate(2.4deg);transform:translateX(9px) rotate(2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(-1.2deg);transform:translateX(-6px) rotate(-1.2deg)}}@keyframes wobble-hor-bottom{0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(-6deg);transform:translateX(-30px) rotate(-6deg)}30%{-webkit-transform:translateX(15px) rotate(6deg);transform:translateX(15px) rotate(6deg)}45%{-webkit-transform:translateX(-15px) rotate(-3.6deg);transform:translateX(-15px) rotate(-3.6deg)}60%{-webkit-transform:translateX(9px) rotate(2.4deg);transform:translateX(9px) rotate(2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(-1.2deg);transform:translateX(-6px) rotate(-1.2deg)}}.wobble-hor-bottom{-webkit-animation:wobble-hor-bottom .8s both;animation:wobble-hor-bottom .8s both} .speech-bubble{opacity: 0; color:#fff;width:200px;padding:10px;box-shadow:4px 6px 13px rgba(0,0,0,.5);font-size:14px;position:fixed;bottom:94px;left:18px;background:'+push_ui_config.bubblecolor+';border-radius:.4em} .speech-bubble:after{content:"";position:absolute;bottom:0;left:50%;width:0;height:0;border:30px solid transparent;border-top-color:'+push_ui_config.bubblecolor+';border-bottom:0;border-left:0;margin-left:-43px;margin-bottom:-30px}</style><div class="pushbell" style="cursor: pointer; width: 60px; height: 60px; position: fixed; bottom: 13px; box-shadow: 0px 0px 7px -2px; left: 13px; background: '+push_ui_config.bellbgcolor+'; padding: 10px; border-radius: 75px;"><svg viewBox="-11 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m298.667969 426.667969c0 47.128906-38.207031 85.332031-85.335938 85.332031-47.128906 0-85.332031-38.203125-85.332031-85.332031 0-47.128907 38.203125-85.335938 85.332031-85.335938 47.128907 0 85.335938 38.207031 85.335938 85.335938zm0 0" fill="#e1e1e1"/><path d="m362.835938 254.316406c-72.320313-10.328125-128.167969-72.515625-128.167969-147.648437 0-21.335938 4.5625-41.578125 12.648437-59.949219-10.921875-2.558594-22.269531-4.050781-33.984375-4.050781-82.34375 0-149.332031 66.984375-149.332031 149.332031v59.476562c0 42.21875-18.496094 82.070313-50.945312 109.503907-8.296876 7.082031-13.054688 17.429687-13.054688 28.351562 0 20.589844 16.746094 37.335938 37.332031 37.335938h352c20.589844 0 37.335938-16.746094 37.335938-37.335938 0-10.921875-4.757813-21.269531-13.269531-28.542969-31.488282-26.644531-49.75-65.324218-50.5625-106.472656zm0 0" fill="#ffffff"/><path d="m490.667969 106.667969c0 58.910156-47.757813 106.664062-106.667969 106.664062s-106.667969-47.753906-106.667969-106.664062c0-58.910157 47.757813-106.667969 106.667969-106.667969s106.667969 47.757812 106.667969 106.667969zm0 0" fill="'+push_ui_config.bellstatuscolor+'"/></svg></div><div class="speech-bubble">'+push_ui_config.bubbletext+'</div>';
+
+                    return bellhtml;
+                }
+
+              });
+
+            </script>
+            <script type='text/javascript' src='https://investmentu.com/wp-includes/js/comment-reply.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://investmentu.com/wp-content/themes/InvestmentU-2019/assets/scripts/main.js'></script>
+<script type='text/javascript' src='https://investmentu.com/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+
+<!-- This site is optimized with Phil Singleton's WP SEO Structured Data pro plugin v1.3.0 - https://kcseopro.com/wordpress-seo-structured-data-schema-plugin/ -->
+
+<!-- / WP SEO Structured Data pro plugin. -->
+
+</body>
+</html>
